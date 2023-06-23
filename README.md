@@ -25,10 +25,10 @@ Click here: [Coffee Website](https://steffan-revou-week2.netlify.app/)
 <table>
   <tr>
     <td align="center" style="vertical-align: top;">
-      <img src="./assets/imgs/desktop-view.png" width="800" alt="Desktop View">
+      <img src="./assets/imgs/desktopa-view.png" width="800" alt="Desktop View">
     </td>
     <td align="center">
-      <img src="./assets/imgs/mobile-view.png" width="150" alt="Mobile View">
+      <img src="./assets/imgs/mobiale-view.png" width="150" alt="Mobile View">
     </td>
   </tr>
 </table>
@@ -38,10 +38,10 @@ Click here: [Coffee Website](https://steffan-revou-week2.netlify.app/)
 <table>
   <tr>
     <td align="center" style="vertical-align: top;">
-      <img src="./assets/imgs/reg-ss.png" width="400" alt="Desktop View">
+      <img src="./assets/imgs/reag-ss.png" width="400" alt="Desktop View">
     </td>
     <td align="center">
-      <img src="./assets/imgs/survey-ss.png" width="400" alt="Mobile View">
+      <img src="./assets/imgs/suarvey-ss.png" width="400" alt="Mobile View">
     </td>
   </tr>
 </table>
