@@ -103,16 +103,31 @@
         </div>
       </section>
 
-      <section class="form-section" >
-        <div class="logistics">
-        <div>
-          <h5>About Our Club</h5>
-          <p>A delightful community for coffee enthusiasts seeking the perfect blend of companionship and caffeine. Our club is a gathering place for individuals who share a common passion for coffee and the joy it brings.</p>
+      <!-- Form Section to Join or Give Comments -->
+      <section class="form-section">
+        <div class="logistics" style="grid-column: 2">
+          <div>
+            <h5>Discussion about Coffee</h5>
+            <p>
+              Research has highlighted several positive impacts of coffee on various aspects of human health and well-being. Studies suggest that moderate coffee consumption has been associated with a reduced risk of developing chronic
+              conditions such as type 2 diabetes, Parkinson's disease, and certain types of liver diseases. Coffee has also been found to enhance cognitive function, including improved alertness, concentration, and reaction time.
+            </p>
+
+            <button class="btn" id="commentBtn">
+              <span>Submit Survey!</span>
+            </button>
+          </div>
         </div>
-        <button class="btn" id="formAlert">
-          <span>Join Our Club!</span>
-        </button>
-      </div>
+
+        <div class="logistics" style="grid-column: 4">
+          <div>
+            <h5>About Our Club</h5>
+            <p>A delightful community for coffee enthusiasts seeking the perfect blend of companionship and caffeine. Our club is a gathering place for individuals who share a common passion for coffee and the joy it brings.</p>
+            <button class="btn" id="formBtn">
+              <span>Join Our Club!</span>
+            </button>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -130,7 +145,7 @@
     </footer>
 
     <!-- Modal -->
-    <div class="formModal" id="formModal">
+    <div class="formModal" id="regModal">
       <form class="form">
         <div class="title">
           <p>Register</p>
@@ -159,7 +174,51 @@
           <input required="" placeholder="" type="password" class="input" />
           <span>Confirm password</span>
         </label>
+        <label>
+          <input required="" type="file" class="input" />
+          <span>Upload File</span>
+        </label>
         <button class="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="formModal" id="commentModal">
+      <form class="form">
+        <div class="title">
+          <p>Survey</p>
+          <span class="setCloseModal">&times;</span>
+        </div>
+        <label>
+          <input required="" placeholder="" type="text" class="input" />
+          <span>Name</span>
+        </label>
+        <label>
+          <input required="" placeholder="" type="email" class="input" />
+          <span>Email</span>
+        </label>
+        <fieldset>
+          <div>
+            <p>Which of the following can affect the taste of coffee?</p>
+            <input id="roast" type="checkbox" name="taste-of-coffee" value="roast" />
+            <label for="roast">Roast</label>
+            <input id="acidity" type="checkbox" name="taste-of-coffee" value="acidity" />
+            <label for="acidity">Acidity</label>
+            <input id="brewing" type="checkbox" name="taste-of-coffee" value="brewing" />
+            <label for="brewing">Brewing</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <p>Do you believe coffee is beneficial for humanity?</p>
+          <input type="radio" id="yes" value="benefit" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" value="noBenefit" />
+          <label for="no">No</label>
+        </fieldset>
+        <label>
+          <span>Tell us why?</span>
+          <textarea rows="5" required="" placeholder="" type="email" class="input"></textarea>
+        </label>
+        <button class="submit">Post Comment</button>
       </form>
     </div>
 
