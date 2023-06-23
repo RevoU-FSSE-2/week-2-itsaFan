@@ -35,13 +35,15 @@ Click here: [Coffee Website](https://steffan-revou-week2.netlify.app/)
 
 ### Survey and Register Button Modal:
 
-<div style="display: flex; justify-content: center; align-items: flex-start;">
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/imgs/reg-ss.png" width="400" title="Desktop View">
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/imgs/survey-ss.png" width="400" title="Mobile View">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center" style="vertical-align: top;">
+      <img src="./assets/imgs/reg-ss.png" width="400" alt="Desktop View">
+    </td>
+    <td align="center">
+      <img src="./assets/imgs/survey-ss.png" width="400" alt="Mobile View">
+    </td>
+  </tr>
+</table>
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
