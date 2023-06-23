@@ -27,7 +27,7 @@ Click here: [Coffee Website](https://steffan-revou-week2.netlify.app/)
     <img src="./assets/imgs/desktop-view.png" width="400" title="Desktop View">
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="./assets/imgs/mobile-view.png" width="300" title="Mobile View">
+    <img src="./assets/imgs/mobile-view.png" width="200" title="Mobile View">
   </div>
 </div>
 
