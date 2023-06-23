@@ -35,16 +35,18 @@ window.onclick = function (event) {
   }
 };
 
-const hamburgerBtn = document.getElementById("hamburgerBtn");
-const closeBtn = document.getElementById("closeBtn");
-const navigation = document.querySelector(".navigation");
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const closeBtn = document.getElementById('closeBtn');
+const navigation = document.querySelector('.navigation');
 
-hamburgerBtn.addEventListener("click", function () {
-  navigation.classList.add("active");
-  closeBtn.style.display = "block"; // Show the close button
+hamburgerBtn.addEventListener('click', function () {
+  navigation.classList.add('active');
+  closeBtn.style.display = 'block';
 });
 
-closeBtn.addEventListener("click", function () {
-  navigation.classList.remove("active");
-  closeBtn.style.display = "none"; // Hide the close button
+closeBtn.addEventListener('click', function () {
+  navigation.classList.remove('active');
+  closeBtn.style.display = 'none'; 
 });
+
+

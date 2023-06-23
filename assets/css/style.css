@@ -564,6 +564,9 @@ ul {
   top: 1rem;
   right: 1rem;
 }
+.close.active {
+  display: block;
+}
 
 @media (max-width: 768px) {
   .navigation {
@@ -609,7 +612,4 @@ ul {
     transition: initial;
   }
 
-  .close {
-    display: block;
-  }
 }
