@@ -22,14 +22,16 @@ Click here: [Coffee Website](https://steffan-revou-week2.netlify.app/)
 
 ### Desktop and Mobile View Screenshots
 
-<div style="display: flex; justify-content: center; align-items: flex-start; width: 100%;">
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/imgs/desktop-view.png" width="300" title="Desktop View">
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/imgs/mobile-view.png" width="150" title="Mobile View">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center" style="vertical-align: top;">
+      <img src="./assets/imgs/desktop-view.png" width="300" alt="Desktop View">
+    </td>
+    <td align="center">
+      <img src="./assets/imgs/mobile-view.png" width="150" alt="Mobile View">
+    </td>
+  </tr>
+</table>
 
 ### Survey and Register Button Modal:
 
