@@ -7,7 +7,7 @@ Click here: https://steffan-revou-week2.netlify.app/
 
 ### Desktop View Screenshot
 <p align="center">
-  <img src="./assets/imgs/ss-website.png" width="850" title="web-img">
+  <img src="./assets/imgs/desktop-view.png" width="850" title="web-img">
 </p>
 
 
