@@ -105,7 +105,7 @@
 
       <!-- Form Section to Join or Give Comments -->
       <section class="form-section">
-        <div class="logistics" style="grid-column: 2">
+        <div class="logistics" id="disc-log" >
           <div>
             <h5>Discussion about Coffee</h5>
             <p>
@@ -119,7 +119,7 @@
           </div>
         </div>
 
-        <div class="logistics" style="grid-column: 4">
+        <div class="logistics" id="about-log">
           <div>
             <h5>About Our Club</h5>
             <p>A delightful community for coffee enthusiasts seeking the perfect blend of companionship and caffeine. Our club is a gathering place for individuals who share a common passion for coffee and the joy it brings.</p>
@@ -176,7 +176,7 @@
         </label>
         <label>
           <input required="" type="file" class="input" />
-          <span>Upload File</span>
+          <span style="left: 200px">Upload Image</span>
         </label>
         <button class="submit">Submit</button>
       </form>
@@ -197,15 +197,13 @@
           <span>Email</span>
         </label>
         <fieldset>
-          <div>
-            <p>Which of the following can affect the taste of coffee?</p>
-            <input id="roast" type="checkbox" name="taste-of-coffee" value="roast" />
-            <label for="roast">Roast</label>
-            <input id="acidity" type="checkbox" name="taste-of-coffee" value="acidity" />
-            <label for="acidity">Acidity</label>
-            <input id="brewing" type="checkbox" name="taste-of-coffee" value="brewing" />
-            <label for="brewing">Brewing</label>
-          </div>
+          <p>Which of the following can affect the taste of coffee?</p>
+          <input id="roast" type="checkbox" name="taste-of-coffee" value="roast" />
+          <label for="roast">Roast</label>
+          <input id="acidity" type="checkbox" name="taste-of-coffee" value="acidity" />
+          <label for="acidity">Acidity</label>
+          <input id="brewing" type="checkbox" name="taste-of-coffee" value="brewing" />
+          <label for="brewing">Brewing</label>
         </fieldset>
         <fieldset>
           <p>Do you believe coffee is beneficial for humanity?</p>
